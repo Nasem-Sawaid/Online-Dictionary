@@ -23,7 +23,7 @@ def translate(index):  # check if the word exist in the file
         else:
             return "we didn't understand your entry"
     else:
-        return "The word doesn't exist. Please double check it"
+        return "The word doesn't exist. Please double check it!"
 
 
 word = input("Enter word : ")
